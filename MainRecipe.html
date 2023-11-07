@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="MainRecipe1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@500;700&family=Edu+SA+Beginner&family=Lora&family=Merriweather:ital,wght@1,300&family=Nanum+Myeongjo:wght@700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Sacramento&display=swap" rel="stylesheet">
+<script>
+    document.querySelector('.leftbox').addEventListener('mouseleave', function() {
+        const video = this.querySelector('.video');
+        if (!video.paused) {
+            video.pause();
+        }
+    });
+</script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="webname">
+                <h1>Made easy Recipes</h1>
+            </div>
+              <div class="webname">
+                <nav >
+                    <ul class="navlist">
+                        <li><a href="#page1">Home</a> </li>
+                        <li><a href="recipe.html">Recipes</a></li>
+                        <li><a href="recipe.html#contactus">Contact</a></li>
+                    </ul>
+                </nav>
+              </div>
+        </div>
+    </div>
+<!-- -----------------------------------------------------------headeer--------------- -->
+    <div class="container2" id="page1">
+        <div class="search-bar">
+            <form action="">
+                <input type="text" name="serch" id="" placeholder="search your recipes here" style="color: black;">
+                <button type="submit" class="image-bar">
+                    <img src="images/search.png" alt="" class="zoom-image">
+                </button>
+            </form>
+        </div>
+       <div class="itemcontainer">
+        <div class="item1">
+            <a href="recipe.html#section8" target="_blank">
+            <img src="images/pizza.png" class="zoom-image">
+            <div class="content">
+                <p style="color: red;">Pizza</p>
+               </div>
+            </a>
+        </div>
+        <div class="item1">
+            <a href="recipe.html#section5" target="_blank">
+            <img src="images/pngtree-dosa-south-indian-food-png-image_6667784.png" alt="" class="zoom-image">
+            <div class="content">
+                <p style="color: black;">Dosa</p>
+               </div>
+            </a>
+        </div>
+        <div class="item1">
+            <a href="recipe.html#section6" target="_blank">
+             <img src="images/pngtree-samosa-halal-food-png-image_9998989.png" alt="" class="zoom-image">
+             <div class="content">
+                <p style="color: #e9c46a;">Samosa</p>
+               </div>
+            </a>
+        </div>
+        <div class="item1">
+            <a href="recipe.html#section1" target="_blank">
+                <img src="images/burger.png" alt="" class="zoom-image">
+               <div class="content">
+                <p style="color: maroon;">Burger</p>
+               </div>
+            </a>      
+        </div>
+     </div>
+     <!-- ------------------------------------------------section---------------------------- -->
+        <div class="itemcontainer1">
+            <div class="item1" style="padding-left: 50px;">
+                <a href="recipe.html#section7" target="_blank">
+                <div class="content">
+
+                    <p style="color: #fcca46 ;">Jalebi</p>
+                   </div>
+                   <img src="images/pngtree-sweet-jalebi-png-image_10000305.png" alt="" class="zoom-image">
+                </a>   
+            </div>
+            <div class="item1"  style="padding-left: 110px;">
+                <a href="recipe.html#section2" target="_blank">
+                <div class="content">
+                    <p style="color: #540b0e">Jamun</p>
+                   </div>
+                <img src="images/pngtree-indian-sweet-gulab-jamun-closeup-view-png-image_9982030.png" class="zoom-image">
+               </a>  
+            </div>
+            <div class="item1" style="padding-left: 120px;">
+                <a href="recipe.html#section3" target="_blank">
+                <div class="content">
+                    <p  style="color: black;">Panner</p>
+                   </div>
+                <img src="images/pngtree-kadai-paneer-curry-png-image_7101714.png" alt="" class="zoom-image">
+              </a> 
+            </div>
+            <div class="item1" style="padding-left: 115px; margin-top: -70px;">
+                <a href="recipe.html#section4" target="_blank">
+                <div class="content">
+                    <p  style="color: #f95738;">Sharoma</p>
+                   </div>
+                 <img src="images/pngtree-shaorma-white-transparent-png-image_6720480.png" alt="" class="zoom-image">
+                </a>  
+            </div>
+       </div>
+    </div>
+
+    <div class="footer">
+        <p> copyrights @made recipe easy</p>
+    </div>
+
+    </div>
+    </body>
+    </html>

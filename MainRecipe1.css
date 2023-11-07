@@ -1,0 +1,147 @@
+body
+{
+    background-image: url(images/istockphoto-1224208111-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navlist
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navlist li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    
+}
+.webname{
+    display: inline-block;
+    justify-content: space-between;
+    margin: auto;
+}
+h1{
+    color: white;
+}
+a{
+    color: white;
+}
+.webname{
+    display: inline-block;
+    justify-content: space-between;
+    margin: auto;
+}
+#topic{
+    margin-bottom: 2%;
+}
+h1{
+    color: white;
+}
+a{
+    color: white;
+}
+.container2{
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    width: 80%;
+    margin: auto;
+    position: center;
+}
+.container2{
+    margin-top: 8%;
+    height: 600px;
+}
+.footer{
+    background-color: #5E5E5E;
+    width: 100%;
+    margin-bottom: 0%
+    
+}
+.search-bar{
+   width: 100%;
+   max-width: 700px;
+   max-height: 30px;
+   background-color: black;
+   border-radius: 60px;
+   display: flex;
+   align-items: center;
+   padding: 10px 20px;
+   margin-top: 4%;
+   margin-left: 15%;
+}
+
+.search-bar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    flex: 1;
+    padding-bottom: 10%;
+    font-size: 25px;
+   
+}
+.image-bar{
+    position: relative;
+    left: 90%;
+    margin-top: 8%;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.itemcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+}
+.item1{
+    display: inline-block;
+    
+}
+.item1 img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+ .item1:hover img{
+    transition: transform 0.3 ease;
+    transform: scale(1.2);
+} 
+
+.content{
+    padding-bottom: 3%;
+    padding-left: 27%;
+    opacity: 0;
+
+}
+.item1:hover .content{
+    opacity: 1;
+    font-size: 30px;
+    color: white;
+    margin-top: -22%;
+}
+.footer{
+    background-color: green;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}

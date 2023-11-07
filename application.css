@@ -1,0 +1,134 @@
+body{
+    background-image: url(images/Untitled\ design\ \(50\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+  background-size: cover;
+}
+.image{
+    justify-content: center;
+    display: flex;
+}
+.header2{
+    text-align: center;
+    color: #3266a8;
+}
+.path{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+}
+.elements{
+    display: inline-block;
+    background-color: #bbc2c9;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3266a8;
+    padding-left: 1%;
+}
+.elements1{
+  background-color: #bbc2c9;
+  width: 100%;
+  font-size: 30px;
+  margin: auto;
+  margin-left: 10%;
+}
+.box1{
+  width: 40%;
+  margin: auto;
+  margin-left: 10%;
+}
+.fullcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  display: inline-block;
+} 
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+input[type="date"],
+select,
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+*b{
+  font-family: 'Times New Roman', Times, serif;
+} 
+.divisions{
+  display: flex;
+}
+.container{
+  display: inline-block;
+}
+
+.form-group1{
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-bottom: 20%;
+}
+.review{
+  display: flex;
+  justify-content: space-between;
+}
+.review1{
+  display: inline-block;
+}

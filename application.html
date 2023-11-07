@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="application.css">
+    <script src="https://kit.fontawesome.com/49181110cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header2">
+            <h1>Application Form</h1>
+        </div>
+        <div class="path" style="margin-left: 12%;">
+            <div class="elements">1 .Get started </div>
+            <i class="fa-solid fa-arrow-right" style="font-size: 50px; color:  #3266a8;"></i>
+             <div class="elements" >2. carrier profile</div>
+             <i class="fa-solid fa-arrow-right" style="font-size: 50px; color:  #3266a8; "></i>
+             <div class="elements">3. Job role info</div>
+             <i class="fa-solid fa-arrow-right" style="font-size: 50px; color:  #3266a8;"></i>
+             <div class="elements">4. Review and apply</div>
+        </div>
+    </div>
+    <div class="divisions">
+    <div class="container" style="margin-left: 10%; margin-top: 3%; width: 80%;">
+        <h1>Carrier Profile</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="dateofbirth">Date of Birth:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Expertise  Field:</label>
+                <select id="" name="position" required style="width: 90%;">
+                    <option value="">Select</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                    <option value="developer">Analyst</option>
+                    <option value="designer">Tester</option>
+                    <option value="manager">Marketing</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">University Name</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Degree and Branch</label>
+                <select id="position" name="position" required>
+                    <option value="">Select</option>
+                    <option value="developer">BE computerscience</option>
+                    <option value="designer">BE electrical and communication</option>
+                    <option value="manager">BE electrical andelectronics </option>
+                    <option value="developer">B.Tech IT</option>
+                    <option value="designer">B.Tech Csbs</option>
+                    <option value="manager">B.Tech AI&DS</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="experience">Years of Experience:</label>
+                <input type="number" id="experience" name="experience" min="0" required>
+            </div>
+            <div class="form-group">
+                <label for="comments">Project Information</label>
+                <textarea id="comments" name="comments" rows="5"></textarea>
+            </div>
+            <div class="form-group" style="margin-left: 40%;">
+                <input type="submit" value="Save">
+            </div>
+        </form>
+    </div>
+    <!-- -------------------------------------------divion2---------------------- -->
+    <div class="container" style="    margin-right: 5%; margin-top: 3%; width: 70%;">
+        <h1> Job Role info </h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="position">Desired Position:</label>
+                <select id="position" name="position" required>
+                    <option value="">Select</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                    <option value="developer">Analyst</option>
+                    <option value="designer">Tester</option>
+                    <option value="manager">Marketing</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="position">CTC Expected:</label>
+                <select id="position" name="position" required>
+                    <option value="">Select</option>
+                    <option value="developer">3  LPA ( 0 - 3 year Experience)</option>
+                    <option value="designer">4.5  LPA ( 1 - 2 year Experience)</option>
+                    <option value="manager">6  LPA ( 2 - 4 year Experience)</option>
+                    <option value="developer">8  LPA ( 4 - 5 year Experience)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="position">Preferred job Location:</label>
+                <select id="position" name="position" required>
+                    <option value="">Select</option>
+                    <option value="developer">Bangalore karnataka.</option>
+                    <option value="designer">chennai Tamilnadu.</option>
+                    <option value="manager">Hyderbad Karnataka</option>
+                    <option value="developer">Pune mumbai</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Skills ">Skills </label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="availablity">Availablity date:</label>
+                <input type="date" name="date" id="availabile">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="link">Linked in profile:</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="link">Git -Hub profile:</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="preference">preference</label>
+                <select name="jon" id="preference">
+                    <option value="FullTime">Full time</option>
+                    <option value="Internship">Internship</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Information</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <div class="form-group" style="margin-left: 40%;">
+                <input type="submit" value="Save">
+            </div>
+        </form>
+    </div>
+</div>
+<form action="/action_page.php">
+    <div class="access" style="margin-left: 30%; margin-top: 10%;">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1" style="margin-left: 3%; margin-top: -2%;"> I have verified all the above details and agree on the terms and conditions.</label><br>
+    
+    <input type="submit" value="Submit">
+   </div>
+  </form>
+  
+<div class="form-group1">
+    <input type="submit" value="Apply">
+</div>
+</body>
+</html>
+
+
